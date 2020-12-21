@@ -185,9 +185,9 @@ a:hover{
     overflow: hidden;
     min-height: 100vh;
     & .about{
-        width: 60%;
-        margin: 4rem  auto;
-        text-align: center;
+        
+        text-align: center; 
+        @include center-box;
         @media only screen and (max-width: $bp-medium){
             width: 75%;
         }  
