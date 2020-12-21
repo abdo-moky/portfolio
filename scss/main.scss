@@ -105,7 +105,7 @@ a:hover{
     position: absolute;
     bottom: 2rem;
     right: 4rem;
-    font-size: 1.2rem; 
+    font-size: 1.4rem; 
    text-transform: capitalize; 
 }
 .home{
@@ -118,6 +118,7 @@ a:hover{
         
         text-align: center; 
         @include center-box;
+        top: 55%;
         @media only screen and (max-width: $bp-medium){
             width: 75%;
         }  
@@ -160,9 +161,9 @@ a:hover{
             & span{ 
                 display: inline-block; 
                 background-image: linear-gradient(to right,var(--primary-color-light),var(--primary-color));
-                margin: 0 2rem 2rem 0;
-                padding: 1rem 1.8rem;
-                text-transform: uppercase;
+                margin: 2.2rem;
+                padding: 1.2rem 2rem;
+                text-transform: uppercase; 
                 transition: all .2s ease-in-out;
                 backface-visibility: hidden;
                 &:hover{ 
@@ -208,7 +209,7 @@ a:hover{
         & .app{ 
             flex: 0 0 43%; 
             display: flex;   
-            margin-bottom: 6rem; 
+            margin-bottom: 10rem; 
             
             @media only screen and (max-width: $bp-medium){
                 flex: 0 0 100%; 
@@ -295,9 +296,10 @@ a:hover{
             transform: translate(-50%, -50%); 
         }    
         & h2{
-            font-size: 7rem; 
+            font-size: 8rem; 
             letter-spacing: 1rem;
             @include gradient-text;
+            text-transform: capitalize;
         }
         & .mail-img{ 
             position: absolute;
@@ -317,12 +319,12 @@ a:hover{
         & .links{
             margin-top: 8rem;
             & .gmail{
-                font-size: 2rem;
+                font-size: 2.5rem;
                 margin-bottom: 2rem;
             }
             & .others{
                 & img{
-                    width: 8rem;
+                    width: 10rem;
                 }
             } 
         }

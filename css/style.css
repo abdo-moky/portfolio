@@ -160,7 +160,7 @@ a:hover {
   position: absolute;
   bottom: 2rem;
   right: 4rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-transform: capitalize; }
 
 .home {
@@ -174,7 +174,8 @@ a:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    top: 55%; }
     @media only screen and (max-width: 50em) {
       .home .about {
         width: 75%; } }
@@ -211,8 +212,8 @@ a:hover {
       .home .about .skills span {
         display: inline-block;
         background-image: linear-gradient(to right, var(--primary-color-light), var(--primary-color));
-        margin: 0 2rem 2rem 0;
-        padding: 1rem 1.8rem;
+        margin: 2.2rem;
+        padding: 1.2rem 2rem;
         text-transform: uppercase;
         transition: all .2s ease-in-out;
         backface-visibility: hidden; }
@@ -253,7 +254,7 @@ a:hover {
     .work-box .app {
       flex: 0 0 43%;
       display: flex;
-      margin-bottom: 6rem; }
+      margin-bottom: 10rem; }
       @media only screen and (max-width: 50em) {
         .work-box .app {
           flex: 0 0 100%; } }
@@ -330,13 +331,14 @@ a:hover {
         left: 50%;
         transform: translate(-50%, -50%); } }
     .contact .contact-box h2 {
-      font-size: 7rem;
+      font-size: 8rem;
       letter-spacing: 1rem;
       display: inline-block;
       color: transparent;
       background-clip: text;
       -webkit-background-clip: text;
-      background-image: linear-gradient(to right, var(--primary-color-light), var(--primary-color)); }
+      background-image: linear-gradient(to right, var(--primary-color-light), var(--primary-color));
+      text-transform: capitalize; }
     .contact .contact-box .mail-img {
       position: absolute;
       top: 0;
@@ -354,7 +356,7 @@ a:hover {
     .contact .contact-box .links {
       margin-top: 8rem; }
       .contact .contact-box .links .gmail {
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-bottom: 2rem; }
       .contact .contact-box .links .others img {
-        width: 8rem; }
+        width: 10rem; }
