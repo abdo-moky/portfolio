@@ -22,7 +22,7 @@ $bp-smallest: 25em;   // 400px;
 :root{
     --primary-color: #233bf9; 
     --primary-color-light: #05f1ff;
-    --bg-color: #1a1c20;
+    --bg-color: #0f1011;
 }
 *, *:after, *:before{
     margin: 0;
@@ -42,7 +42,7 @@ html{
     }
     @media only screen and (max-width: $bp-smallest){
         font-size: 37.50%;
-    }
+    } 
 }
 body{
     font-family: 'Krona One', sans-serif;
@@ -50,7 +50,7 @@ body{
     font-weight: 400;
     color: #fff;
 }
-.container{
+.container{ 
     max-width: 104rem;
     margin: auto;
     @media only screen and (max-width: $bp-large){
@@ -74,14 +74,14 @@ body{
     opacity: 1 !important;
 }
 .background-open{
-    transform: scale(22);
+    transform: scale(25);
 }
 @keyframes leftToRightMove {
     0%{
         left: 0rem;
     }
     50%{ 
-        left: 2rem; 
+        left: 3.5rem; 
     }
     100%{
         left: 0rem;
