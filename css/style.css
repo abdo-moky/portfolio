@@ -364,7 +364,7 @@ a:hover {
           background-image: linear-gradient(to right, var(--primary-color-light), var(--primary-color));
           width: 100%;
           position: absolute;
-          top: 150%;
+          top: 170%;
           left: 50%;
           transform: translate(-50%, -50%);
           transition: all .3s; }
