@@ -318,6 +318,9 @@ a:hover {
             .work-box .app-photo__text ul li {
               font-size: 1.4rem;
               margin: 1rem 1.5rem 1rem 0; }
+          .work-box .app-photo__text a {
+            font-size: 6rem;
+            font-weight: 700; }
         .work-box .app-photo:hover .app-photo__text {
           top: 50%; }
         .work-box .app-photo:hover .overlay {

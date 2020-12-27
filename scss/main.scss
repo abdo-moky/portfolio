@@ -269,7 +269,11 @@ a:hover{
                             margin: 1rem 1.5rem 1rem 0;  
                         }
                     }
-                    
+                    & a{
+                        font-size: 6rem;
+                        font-weight: 700;
+                        
+                    }
                 }
                 &:hover{
                     .app-photo__text{
