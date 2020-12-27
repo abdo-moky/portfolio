@@ -2,6 +2,7 @@ const navToggler= document.querySelectorAll('.nav-toggler')
 const links= document.querySelectorAll('.nav-list li')
 let section= 'home'
 function toggleNav() {
+    //document.querySelector('.home .about').classList.toggle('hide-element')
     document.querySelector(`.${section} .background`).classList.toggle('background-open')
     document.querySelector(`.${section} .nav-list`).classList.toggle('list-open')
 }

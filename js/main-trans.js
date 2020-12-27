@@ -5,6 +5,7 @@ var links = document.querySelectorAll('.nav-list li');
 var section = 'home';
 
 function toggleNav() {
+  //document.querySelector('.home .about').classList.toggle('hide-element')
   document.querySelector(".".concat(section, " .background")).classList.toggle('background-open');
   document.querySelector(".".concat(section, " .nav-list")).classList.toggle('list-open');
 }

@@ -74,7 +74,7 @@ body{
     opacity: 1 !important;
 }
 .background-open{
-    transform: scale(25);
+    transform: scale(23);
 }
 @keyframes leftToRightMove {
     0%{
@@ -87,3 +87,8 @@ body{
         left: 0rem;
     }
 }
+/* .hide-element{
+    transform: translateX(-100%);
+    opacity: 0;
+    visibility: hidden;
+} */
