@@ -290,9 +290,9 @@ a:hover{
 
 /* contact section *************************************************************/
 .contact{
-    --primary-color-light: #D7DDE8;
+    --primary-color-light: #e4e8f0;
     --primary-color: #757F9A; 
-    position: relative; 
+    position: relative;  
     min-height: 100vh;
     overflow: hidden;
     background-color: var(--bg-color);
@@ -329,10 +329,14 @@ a:hover{
         }
         & .links{
             margin-top: 8rem;
-            & .gmail{
+            display: flex;
+            flex-direction: column;
+            & .gmail, .phone{
                 font-size: 2.5rem;
-                margin-bottom: 2rem;
+                margin-bottom: 2rem; 
+                @include gradient-text;
             }
+            
             & .others{
                 & img{
                     width: 10rem;
