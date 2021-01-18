@@ -8,28 +8,27 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- start the navbar --------------------------------------->
+    <div class="container">
+        <nav class="nav">
+            <a href="#" class="nav-brand">a e</a>
+            <div class="nav-toggler">
+                <span class="top"></span>
+                <span class="mid"></span>
+                <span class="bottom"></span>
+            </div>
+            <div class="background"></div>
+            <ul class="nav-list"> 
+                <li data-section="home">home</li>
+                <li data-section="work">work</li>
+                <li data-section="contact">contact</li>
+            </ul>
+        </nav>
+    </div>
+        
     <!-- start section home -->
-    <section class="home" id="home" style="display: block;">
-        <!-- start the navbar --------------------------------------->
-        <div class="container">
-            <nav class="nav">
-                <a href="#" class="nav-brand">a e</a>
-                <div class="nav-toggler">
-                    <span class="top"></span>
-                    <span class="mid"></span>
-                    <span class="bottom"></span>
-                </div>
-                <div class="background"></div>
-                <ul class="nav-list"> 
-                    <li data-section="home">home</li>
-                    <li data-section="work">work</li>
-                    <li data-section="contact">contact</li>
-                </ul>
-            </nav>
-        <!-- end the navbar ------------------------------------->
-
-        <!-- start about div ------------------------------------->
-
+    <section class="home" id="home">
+   <!-- start about div ------------------------------------->
             <div class="about">
                 <div class="about-text">
                     <h1 class="heading">portfolio</h1>
@@ -44,197 +43,134 @@
                         <span>sass</span>
                         <span>bootstrap</span>
                         <span>javascript</span>
+                        <span>webpack</span>
+                        <span>git/github</span>
                         <span>vue</span>
+                        <span>vuex</span>
+                        <span>vue-router</span>
                     </div>              
                 </div>
+                
             </div>
-        <!-- end the about div ------------------------------------->
-
-        <!-- start the footer ------------------------------------->
-            <footer class="footer">
-                <p> © 2020 all rights reserved - <span>abdo eldmoky</span> </p>
-            </footer>
-        </div>   
-        <!-- end the footer  ------------------------------------->
-
+            
     </section>
-    <!-- end section home ------------------------------------->
+<!-- start section work ------------------------------->
 
-    <!-- start section work ------------------------------->
-
-    <section class="work" id="work" style="display: none;">
-        <!-- start the navbar --------------------------------------->
-        <div class="container">
-            <nav class="nav">
-                <a href="#" class="nav-brand">a e</a>
-                <div class="nav-toggler">
-                    <span class="top"></span>
-                    <span class="mid"></span>
-                    <span class="bottom"></span>
-                </div>
-                <div class="background"></div>
-                <ul class="nav-list"> 
-                    <li data-section="home">home</li>
-                    <li data-section="work">work</li>
-                    <li data-section="contact">contact</li>
-                </ul>
-            </nav>
-        </div>
-    
-            <!-- end the navbar ------------------------------------->
+    <section class="work" id="work">
 
             <!-- start work div ------------------------------------->
-            <h2>recent work</h2>
+            <div class="work-container">
+                <h2>recent work</h2>
 
-            <div class="work-box">
-                <div class="app">
-                    <div class="app-num">1.</div>
-                    <figure class="app-photo">
-                            <img src="img/food-app.png" alt="app">
-                            <div class="overlay"></div>
-                            <figcaption class="app-photo__text">
-                                <h4>
-                                    skills .
-                                </h4>
-                                <ul>                           
-                                    <li>html</li>
-                                    <li>css</li>
-                                    <li>scss</li>
-                                    <li>javascript(es6)</li>
-                                    <li>vue</li>
-                                    <li>vuex</li>
-                                </ul> 
-                                <a href="https://food-search-vue.netlify.app" target="_blank">&rightarrow;</a>
-                            </figcaption>
-                    </figure>
-                </div>
-                <div class="app">
-                    <div class="app-num">2.</div>
-                    <figure class="app-photo">
-                        <div class="app-photo__img">
-                            <img src="img/game.png" alt="app">
-                            <div class="overlay"></div>
-                            <figcaption class="app-photo__text">
-                                <h4>
-                                    skills .
-                                </h4>
-                                <ul>                           
-                                    <li>html</li>
-                                    <li>css</li>
-                                    <li>javascript</li>
-                                </ul> 
-                                <a href="http://little-dice-game.netlify.app" target="_blank">&rightarrow;</a>
-                            </figcaption>
-                        </div> 
-                        
-                    </figure>
-                </div>
-                
-                <div class="app">
-                    <div class="app-num">3.</div>
-                    <figure class="app-photo">
-                        <div class="app-photo__img">
-                            <img src="img/weather-app.png" alt="app">
-                            <div class="overlay"></div>
-                            <figcaption class="app-photo__text">
-                                <h4>
-                                    skills .
-                                </h4>
-                                <ul>                           
-                                    <li>html</li>
-                                    <li>css</li>
-                                    <li>sass</li>
-                                    <li>vue</li>
-                                </ul> 
-                                <a href="https://weather-appvue.netlify.app" target="_blank">&rightarrow;</a>
-                            </figcaption>
-                        </div> 
-                        
-                    </figure>
-                </div>
-                <div class="app">
-                    <div class="app-num">4.</div>
-                    <figure class="app-photo">
-                            <img src="img/nexter.png" alt="app">
-                            <div class="overlay"></div>
-                            <figcaption class="app-photo__text">
-                                <h4>
-                                    skills .
-                                </h4>
-                                <ul>                           
-                                    <li>html</li>
-                                    <li>css</li>
-                                    <li>javascript</li>
-                                    <li>vue</li>
-                                </ul> 
-                                <a href="https://nextter1.netlify.app" target="_blank">&rightarrow;</a>
-                            </figcaption>
-                    </figure>
-                </div>
-                <div class="app">
-                    <div class="app-num">5.</div>
-                    <figure class="app-photo">
-                            <img src="img/natours.png" alt="app">
-                            <div class="overlay"></div>
-                            <figcaption class="app-photo__text">
-                                <h4>
-                                    skills .
-                                </h4>
-                                <ul>                           
-                                    <li>html</li>
-                                    <li>css</li>
-                                    <li>javascript</li>
-                                    <li>vue</li>
-                                </ul> 
-                                <a href="https://nattours1.netlify.app" target="_blank">&rightarrow;</a>
-                            </figcaption>
-                    </figure>
+                <div class="work-box">
+                    <div class="app">
+                        <div class="app-num">1.</div>
+                        <figure class="app-photo">
+                                <img src="img/food-app.png" alt="app">
+                                <div class="overlay"></div>
+                                <figcaption class="app-photo__text">
+                                    <h4>
+                                        skills .
+                                    </h4>
+                                    <ul>                           
+                                        <li>html</li>
+                                        <li>css</li>
+                                        <li>scss</li>
+                                        <li>javascript(es6)</li>
+                                        <li>vue</li>
+                                        <li>vuex</li>
+                                    </ul> 
+                                    <a href="https://food-search-vue.netlify.app" target="_blank">&rightarrow;</a>
+                                </figcaption>
+                        </figure>
+                    </div>
+                    <div class="app">
+                        <div class="app-num">2.</div>
+                        <figure class="app-photo">
+                            <div class="app-photo__img">
+                                <img src="img/game.png" alt="app">
+                                <div class="overlay"></div>
+                                <figcaption class="app-photo__text">
+                                    <h4>
+                                        skills .
+                                    </h4>
+                                    <ul>                           
+                                        <li>html</li>
+                                        <li>css</li>
+                                        <li>javascript</li>
+                                    </ul> 
+                                    <a href="http://little-dice-game.netlify.app" target="_blank">&rightarrow;</a>
+                                </figcaption>
+                            </div> 
+                            
+                        </figure>
+                    </div>
+                    
+                    <div class="app">
+                        <div class="app-num">3.</div>
+                        <figure class="app-photo">
+                            <div class="app-photo__img">
+                                <img src="img/weather-app.png" alt="app">
+                                <div class="overlay"></div>
+                                <figcaption class="app-photo__text">
+                                    <h4>
+                                        skills .
+                                    </h4>
+                                    <ul>                           
+                                        <li>html</li>
+                                        <li>css</li>
+                                        <li>sass</li>
+                                        <li>vue</li>
+                                    </ul> 
+                                    <a href="https://weather-appvue.netlify.app" target="_blank">&rightarrow;</a>
+                                </figcaption>
+                            </div> 
+                            
+                        </figure>
+                    </div>
+                    <div class="app">
+                        <div class="app-num">4.</div>
+                        <figure class="app-photo">
+                                <img src="img/nexter.png" alt="app">
+                                <div class="overlay"></div>
+                                <figcaption class="app-photo__text">
+                                    <h4>
+                                        skills .
+                                    </h4>
+                                    <ul>                           
+                                        <li>html</li>
+                                        <li>css</li>
+                                        <li>javascript</li>
+                                    </ul> 
+                                    <a href="https://nextter1.netlify.app" target="_blank">&rightarrow;</a>
+                                </figcaption>
+                        </figure>
+                    </div>
+                    <div class="app">
+                        <div class="app-num">5.</div>
+                        <figure class="app-photo">
+                                <img src="img/natours.png" alt="app">
+                                <div class="overlay"></div>
+                                <figcaption class="app-photo__text">
+                                    <h4>
+                                        skills .
+                                    </h4>
+                                    <ul>                           
+                                        <li>html</li>
+                                        <li>css</li>
+                                        <li>javascript</li>
+                                    </ul> 
+                                    <a href="https://nattours1.netlify.app" target="_blank">&rightarrow;</a>
+                                </figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
+            
             <!-- end the work div ------------------------------------->
-
-            <!-- start the footer ------------------------------------->
-            <footer class="footer">
-                <p> © 2020 all rights reserved - <span>abdo eldmoky</span> </p>
-            </footer>
-            <!-- end the footer  ------------------------------------->
     </section>
-    <!-- end section work ------------------------------------->
-
-
-    <!-- start section contact ------------------------------->
-    <section class="contact" id="contact" style="display: none;">
-        <!-- start the navbar --------------------------------------->
-        <!-- <nav class="nav">
-            <a href="#" class="nav-brand">a e</a>
-            <input type="checkbox" name="menu" id="nav-toggle">
-            <label for="nav-toggle">
-                <span></span>
-            </label>
-            <div class="background"></div>
-            <ul class="nav-list">
-                <li>home</li>
-                <li>work</li>
-                <li>contact</li>
-            </ul>
-        </nav> -->
-        <div class="container">
-            <nav class="nav">
-                <a href="#" class="nav-brand">a e</a>
-                <div class="nav-toggler">
-                    <span class="top"></span>
-                    <span class="mid"></span>
-                    <span class="bottom"></span>
-                </div>
-                <div class="background"></div>
-                <ul class="nav-list"> 
-                    <li data-section="home">home</li>
-                    <li data-section="work">work</li>
-                    <li data-section="contact">contact</li>
-                </ul>
-            </nav>
-            <!-- end the navbar ------------------------------------->
-
+ <!-- start section contact ------------------------------->
+    <section class="contact" id="contact">
             <!-- start contact div ------------------------------------->
             <div class="contact-box">
                 <img class="mail-img" src="img/email.svg" alt="img">
@@ -252,14 +188,25 @@
             
             <!-- end the contact div ------------------------------------->
 
-            <!-- start the footer ------------------------------------->
-            <footer class="footer">
-                <p> © 2020 all rights reserved - <span>abdo eldmoky</span> </p>
-            </footer>
-            <!-- end the footer  ------------------------------------->
-        </div>
+        
     </section>
-    <!-- end section work ------------------------------------->
+<!-- start the footer ------------------------------------->
+    <footer class="footer">
+        <p> © 2020 all rights reserved - <a href="https://abdoeldmoky.netlify.app">abdo eldmoky</a> </p>
+    </footer>   
+<!-- end the footer  ------------------------------------->
+
+
+
+
+
+
+
+
+
+    
+
+   
     <script src="js/main-trans.js"></script>
 </body>
 </html>

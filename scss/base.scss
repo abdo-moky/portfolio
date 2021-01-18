@@ -19,11 +19,7 @@ $bp-smallest: 25em;   // 400px;
 
  
 //reset rules ///////////////////////////////////////
-:root{
-    --primary-color: #233bf9; 
-    --primary-color-light: #05f1ff;
-    --bg-color: #0f1011;
-}
+
 *, *:after, *:before{
     margin: 0;
     padding: 0;
@@ -49,9 +45,23 @@ body{
     font-size: 1.6rem;
     font-weight: 400;
     color: #fff;
+    --bg-color: #0f1011;
+    overflow-x: hidden;
+}
+.home-colors{
+    --primary-color: #233bf9; 
+    --primary-color-light: #05f1ff;
+}
+.work-colors{
+    --primary-color-light: #fe8c00;
+    --primary-color: #f83600;
+}
+.contact-colors{
+    --primary-color-light: #e4e8f0;
+    --primary-color: #757F9A; 
 }
 .container{ 
-    max-width: 104rem;
+    max-width: 114rem;
     margin: auto;
     @media only screen and (max-width: $bp-large){
         max-width: 85rem;
@@ -66,15 +76,33 @@ body{
         max-width: 45rem;
     }
 }
+section{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    min-height: 100vh;
+    width: 100vw;
+}
 ::selection{
-    color: #fff;
+    color: #fff; 
 } 
 .list-open{
-    left: 50% !important;
     opacity: 1 !important;
+    visibility: visible !important;
+    transform: translate(-50%, -50%) scale(1) !important;
+
 }
 .background-open{
-    transform: scale(23);
+    width: 100% !important;
+    height: 100% !important;
+    border-bottom-left-radius: 0% !important;
+    transition: width 650ms ease, height 650ms ease, border-bottom-left-radius 350ms 300ms ease !important;
+}
+.nav-toggler-active{
+    background-image: linear-gradient(to right, white, white) !important;
+}
+.brand-active{ 
+    background-image: linear-gradient(to right, white, white) !important; 
 }
 @keyframes leftToRightMove {
     0%{
@@ -87,8 +115,13 @@ body{
         left: 0rem;
     }
 }
-/* .hide-element{
-    transform: translateX(-100%);
-    opacity: 0;
-    visibility: hidden;
-} */
+
+.hide-element{
+    transform: scale(.5) !important;
+    opacity: 0 !important;
+}
+.home .about.show-box, .work .work-container.show-box, .contact .contact-box.show-box{
+    transition: opacity .5s .6s;
+    opacity: 1;
+    visibility: visible;
+}
