@@ -75,7 +75,7 @@ section {
   border-bottom-left-radius: 0% !important; }
   @media only screen and (max-width: 37.5em) {
     .background-open {
-      transition: width 450ms ease, height 450ms ease; } }
+      border-bottom-left-radius: 200% !important; } }
 
 .nav-toggler-active {
   background-image: linear-gradient(to right, white, white) !important; }
@@ -161,7 +161,6 @@ a:hover {
     transition: width 550ms ease, height 550ms ease, border-bottom-left-radius 600ms ease; }
     @media only screen and (max-width: 37.5em) {
       .nav .background {
-        border-bottom-left-radius: 0;
         transition: width 450ms ease, height 450ms ease; } }
   .nav-brand {
     display: inline-block;

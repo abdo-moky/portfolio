@@ -62,7 +62,6 @@ a:hover{
         border-bottom-left-radius: 200%;
         transition: width 550ms ease, height 550ms ease, border-bottom-left-radius 600ms ease;
         @media only screen and (max-width: $bp-small){
-            border-bottom-left-radius: 0;
             transition: width 450ms ease, height 450ms ease;
         }
     }  
