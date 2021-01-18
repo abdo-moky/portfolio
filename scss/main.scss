@@ -61,9 +61,7 @@ a:hover{
         height: 0;
         border-bottom-left-radius: 200%;
         transition: width 550ms ease, height 550ms ease, border-bottom-left-radius 600ms ease;
-        @media only screen and (max-width: $bp-small){
-            transition: width 450ms ease, height 450ms ease;
-        }
+        
     }  
     &-brand{
         @include gradient-text;
