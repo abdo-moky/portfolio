@@ -96,7 +96,9 @@ section{
     width: 100% !important;
     height: 100% !important;
     border-bottom-left-radius: 0% !important;
-    transition: width 650ms ease, height 650ms ease, border-bottom-left-radius 350ms 300ms ease !important;
+    @media only screen and (max-width: $bp-small){
+        transition: width 450ms ease, height 450ms ease;
+    }
 }
 .nav-toggler-active{
     background-image: linear-gradient(to right, white, white) !important;

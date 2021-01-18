@@ -72,8 +72,10 @@ section {
 .background-open {
   width: 100% !important;
   height: 100% !important;
-  border-bottom-left-radius: 0% !important;
-  transition: width 650ms ease, height 650ms ease, border-bottom-left-radius 350ms 300ms ease !important; }
+  border-bottom-left-radius: 0% !important; }
+  @media only screen and (max-width: 37.5em) {
+    .background-open {
+      transition: width 450ms ease, height 450ms ease; } }
 
 .nav-toggler-active {
   background-image: linear-gradient(to right, white, white) !important; }
@@ -156,7 +158,11 @@ a:hover {
     width: 0;
     height: 0;
     border-bottom-left-radius: 200%;
-    transition: width 450ms ease, height 450ms ease, border-bottom-left-radius 300ms ease; }
+    transition: width 550ms ease, height 550ms ease, border-bottom-left-radius 600ms ease; }
+    @media only screen and (max-width: 37.5em) {
+      .nav .background {
+        border-bottom-left-radius: 0;
+        transition: width 450ms ease, height 450ms ease; } }
   .nav-brand {
     display: inline-block;
     color: transparent;
