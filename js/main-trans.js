@@ -73,13 +73,3 @@ links.forEach(function (el) {
     showSection(el);
   };
 });
-
-function init() {
-  links.forEach(function (el) {
-    return document.querySelector("#".concat(el.dataset.section)).style = "display:none;";
-  });
-  document.querySelector("#".concat(section)).style = "display:block";
-  document.body.classList.add("".concat(section, "-colors"));
-}
-
-init();
