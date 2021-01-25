@@ -70,8 +70,4 @@ links.forEach(el=>{
        showSection(el)   
     }
 })
-function init(){
-    links.forEach((el)=>document.querySelector(`#${el.dataset.section}`).style= "display:none;")
-    document.querySelector(`#${section}`).style= "display:block"
-}
-init()
+
