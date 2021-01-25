@@ -73,6 +73,5 @@ links.forEach(el=>{
 function init(){
     links.forEach((el)=>document.querySelector(`#${el.dataset.section}`).style= "display:none;")
     document.querySelector(`#${section}`).style= "display:block"
-    document.body.classList.add(`${section}-colors`)
 }
 init()
